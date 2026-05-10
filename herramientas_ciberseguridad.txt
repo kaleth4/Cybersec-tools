@@ -1,0 +1,144 @@
+# Herramientas de Ciberseguridad y Hacking Ético
+# Extraídas y organizadas desde el repositorio de API públicas
+
+Este documento contiene una colección de APIs públicas útiles para profesionales de ciberseguridad, pentesters y investigadores de seguridad.
+Las herramientas están organizadas por categoría para facilitar su uso en actividades de reconnaissance, análisis de vulnerabilidades,
+detección de amenazas y otras tareas de seguridad.
+
+## Índice
+1. [Inteligencia de Amenazas y OSINT](#inteligencia-de-amenazas-y-osint)
+2. [Análisis de Malware](#análisis-de-malware)
+3. [Evaluación de Vulnerabilidades](#evaluación-de-vulnerabilidades)
+4. [Seguridad de Red y Reputación de IP](#seguridad-de-red-y-reputación-de-ip)
+5. [Seguridad de Aplicaciones Web](#seguridad-de-aplicaciones-web)
+6. [Autenticación y Seguridad de Cuentas](#autenticación-y-seguridad-de-cuentas)
+7. [Criptografía y Cifrado](#criptografía-y-cifrado)
+8. [Detección de Fraude](#detección-de-fraude)
+9. [Herramientas para Desarrolladores](#herramientas-para-desarrolladores)
+10. [Recursos para Investigación y Ley](#recursos-para-investigación-y-ley)
+
+---
+
+## 1. Inteligencia de Amenazas y OSINT
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| Shodan | Motor de búsqueda de dispositivos conectados a Internet (IoT, servidores, etc.) | apiKey | Sí | Desconocido |
+| Censys | Motor de búsqueda de hosts y dispositivos conectados a Internet | apiKey | Sí | No |
+| BinaryEdge | Plataforma de escaneo de seguridad y búsqueda de activos expuestos | apiKey | Sí | Sí |
+| GreyNoise | Inteligencia sobre ruido de internet para filtrar tráfico benigno | apiKey | Sí | Desconocido |
+| FullHunt | Base de datos consultable de la superficie de ataque de toda Internet | apiKey | Sí | Desconocido |
+| VirusTotal | Análisis de archivos y URLs mediante múltiples motores antivirus | apiKey | Sí | Desconocido |
+| AlienVault OTX | Open Threat Exchange para compartir y consumir inteligencia de amenazas | apiKey | Sí | Desconocido |
+| Intelligence X | Plataforma para realizar investigaciones OSINT (Open Source Intelligence) | apiKey | Sí | Desconocido |
+| URLhaus | Base de datos de URLs maliciosas para distribución de malware | No | Sí | Sí |
+| AbuseIPDB | Base de datos para reportar y consultar IPs involucradas en actividades abusivas | apiKey | Sí | Desconocido |
+
+## 2. Análisis de Malware
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| VirusTotal | Análisis de archivos y URLs mediante múltiples motores antivirus | apiKey | Sí | Desconocido |
+| URLScan.io | Análisis y escaneo de URLs para detectar comportamiento malicioso | apiKey | Sí | Desconocido |
+| Hybrid Analysis (CAPEsandbox) | Ejecución y análisis de malware en entorno aislado | apiKey | Sí | Desconocido |
+| MalwareBazaar | Repositorio para compartir y descargar muestras de malware | apiKey | Sí | Desconocido |
+| MalShare | Comunidad para compartir muestras de malware | apiKey | Sí | No |
+| URLhaus | Descarga masiva de muestras de malware y URLs asociadas | No | Sí | Sí |
+| Google Safe Browsing | Servicio de Google para marcar sitios web y descargas peligrosas | apiKey | Sí | Desconocido |
+| Scanii | Escaneo de archivos y documentos en busca de amenazas | apiKey | Sí | Sí |
+
+## 3. Evaluación de Vulnerabilidades
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| National Vulnerability Database (NVD) | Base de datos de vulnerabilidades de EE. UU. (CVE) | No | Sí | Desconocido |
+| VulDB | Base de datos de vulnerabilidades con capacidad de consulta programática | apiKey | Sí | Desconocido |
+| GitHerramienta para detectar secretos expuestos en repositorios públicos (API keys, credenciales, etc.) | apiKey | Sí | No |
+| Full Criminal Background Check | Base de datos de antecedentes penales de EE. UU. y Puerto Rico | apiKey | Sí | Sí |
+
+## 4. Seguridad de Red y Reputación de IP
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| AbuseIPDB | Reputación de IPs para detectar direcciones involucradas en spam, ataques, etc. | apiKey | Sí | Desconocido |
+| IP Records | Detección de IPs de centros de datos, VPN, proxy y redes Tor | No | Sí | Sí |
+| AlienVault OTX | Reputación de IPs/dominios basada en inteligencia de amenazas | apiKey | Sí | Desconocido |
+| Pescador | Servicio de reputación de IP/dominio/URL | apiKey | Sí | Desconocido |
+| Trusted Network | Red de confianza para reputación de IP/dominio/URL | apiKey | Sí | Desconocido |
+| Criminal IP | Búsqueda de direcciones IP asociadas a actividades criminales | apiKey | Sí | Desconocido |
+
+## 5. Seguridad de Aplicaciones Web
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| URLScan.io | Análisis detallado de comportamiento de páginas web | apiKey | Sí | Desconocido |
+| VirusTotal | Escaneo de URLs y dominios para detección de malware | apiKey | Sí | Desconocido |
+| Google Safe Browsing | Protección contra sitios de phishing y malware | apiKey | Sí | Desconocido |
+| NoPhishy | Verificación de enlaces contra conocidos intentos de phishing | apiKey | Sí | Sí |
+| PhishStats | Base de datos de campañas de phishing activas | No | Sí | Desconocido |
+| Virushee | Escaneo de archivos y datos para detección de amenazas | No | Sí | Sí |
+
+## 6. Autenticación y Seguridad de Cuentas
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| HaveIBeenPwned | Verificación de si credenciales han sido expuestas en brechas de datos | apiKey | Sí | Desconocido |
+| BitWarden | Gestor de contraseñas de código abierto para equipos y empresas | OAuth | Sí | Desconocido |
+| Contraseñador | Generador de contraseñas aleatorias con configuración de complejidad | No | Sí | Sí |
+
+## 7. Criptografía y Cifrado
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| Clasificar | Cifrado y descifrado de mensajes de texto usando diversos algoritmos | No | Sí | Sí |
+| Hashable | Acceso a funciones criptográficas de alto nivel (hashing, firma, etc.) | No | Sí | Sí |
+| Dehash.lt | Descifrado de hashes MD5, SHA1, SHA256, etc. usando tablas arcoíris | No | Sí | Desconocido |
+
+## 8. Detección de Fraude
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| FingerprintJS Pro | Identificación precisa de navegadores para detección de fraude | apiKey | Sí | Sí |
+| FraudLabs Pro | Análisis de transacciones usando IA para detección de fraude | apiKey | Sí | Desconocido |
+| Email Representative | Predicción de amenazas asociadas a direcciones de correo electrónico | No | Sí | Desconocido |
+
+## 9. Herramientas para Desarrolladores
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| Bugcrowd | Plataforma para programas de recompensas por errores (bug bounty) | apiKey | Sí | Desconocido |
+| HackerOne | Plataforma líder para programas de bug bounty y pentesting | apiKey | Sí | Desconocido |
+| GitGuardian | Escaneo de repositorios en busca de secretos expuestos (API keys, tokens, etc.) | apiKey | Sí | No |
+
+## 10. Recursos para Investigación y Ley
+
+| API | Descripción | Autenticación | HTTPS | CORS |
+|-----|-------------|---------------|-------|------|
+| UK Police | Base de datos de registros policiales del Reino Unido | No | Sí | Desconocido |
+| Police Department API | Acceso a registros y estadísticas policiales (jurisdicciones variables) | apiKey | Sí | Desconocido |
+| Corte Suprema de Justicia | Acceso a fallos y documentos legales (países específicos) | apiKey | Sí | Desconocido |
+
+---
+
+## Notas de Uso
+
+1. **Límites de Uso**: Muchas de estas APIs tienen límites de tasa (rate limits) en sus versiones gratuitas. Revise la documentación de cada servicio para conocer los límites específicos.
+
+2. **Claves API**: La mayoría requiere registro y obtención de una clave API para acceder a los servicios completos.
+
+3. **Uso Ético**: Estas herramientas están destinadas para uso en pruebas de seguridad autorizadas, investigación de amenazas y defensa de sistemas. Su uso para actividades maliciosas es ilegal y éticamente inaceptable.
+
+4. **Combinación de Herramientas**: Para evaluaciones de seguridad completas, se recomienda combinar múltiples herramientas (por ejemplo, usar Shodan para descubrimiento inicial, luego VirusTotal para análisis de malware, y finalmente las APIs de vulnerabilidades para evaluación de riesgos).
+
+5. **Actualización**: La efectividad de estas herramientas depende de la frecuencia de actualización de sus bases de datos. Algunas se actualizan en tiempo real, mientras que otras tienen periodicidad mayor.
+
+## Recursos Adicionales
+
+Para mantenerse actualizado en el campo de la ciberseguridad, considere seguir:
+- Blogs de seguridad (Krebs on Security, Schneier on Security, etc.)
+- Feeds de amenazas (AlienVault OTX, AbuseCH, etc.)
+- Conferencias (DEF CON, Black Hat, RSA Conference)
+- Certificaciones (CEH, OSCP, CISSP, etc.)
+
+---
+*Archivo generado para uso en actividades de ciberseguridad ética y profesional.*
